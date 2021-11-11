@@ -1,0 +1,437 @@
+/* mulish-300 - latin */
+@font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/mulish-v5-latin-300.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/mulish-v5-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/mulish-v5-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/mulish-v5-latin-300.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/mulish-v5-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/mulish-v5-latin-300.svg#Mulish') format('svg'); /* Legacy iOS */
+  }
+  /* mulish-regular - latin */
+  @font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/mulish-v5-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/mulish-v5-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/mulish-v5-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/mulish-v5-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/mulish-v5-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/mulish-v5-latin-regular.svg#Mulish') format('svg'); /* Legacy iOS */
+  }
+  /* mulish-600 - latin */
+  @font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/mulish-v5-latin-600.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/mulish-v5-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/mulish-v5-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/mulish-v5-latin-600.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/mulish-v5-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/mulish-v5-latin-600.svg#Mulish') format('svg'); /* Legacy iOS */
+  }
+  /* mulish-700 - latin */
+  @font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/mulish-v5-latin-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/mulish-v5-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/mulish-v5-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/mulish-v5-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/mulish-v5-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/mulish-v5-latin-700.svg#Mulish') format('svg'); /* Legacy iOS */
+  }
+
+* {
+    box-sizing: border-box;
+    font-family: Mulish
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: Mulish
+    
+    
+}
+
+.container {
+    width: 1157px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.hero-top {
+    margin-top: 75px;
+    display: flex;
+    
+}
+
+.logo{
+    display: inline-block;
+}
+
+.hero-nav-list {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+}
+
+.hero-nav-item + .hero-nav-item {
+    margin-left: 20px;
+    display: inline-block;
+    
+
+}
+
+.hero-item-link{
+    text-decoration: none;
+    color: #1F1534;
+}
+
+#hero-link {
+    font-weight: bold;
+}
+
+.main-paragraph {
+    display: flex;
+    margin-top: 100px;
+}
+
+.main-section {
+    margin-bottom: 70px;
+}
+
+.heading-paragraph {
+    width: 500px;
+    margin: auto;
+   
+}
+
+.hero-header {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+    font-family: Mulish 
+}
+
+.head-button {
+    background: #458FF6;
+    border: none;
+    border-radius: 15px;
+    height: 60px;
+    width: 200px;
+    color: #ffffff;
+    border-radius: 55px;
+    font-size: larger;
+}
+
+.font-size {
+    margin-right: 100px;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    color: #7D7987;
+}
+
+.our-services-top{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 78px;
+}
+
+.services-heading {
+    margin: 0;
+    margin-bottom: 25px;
+    font-size: 36px;
+    line-height: 56px;
+    color: #000000;
+    text-align: center;
+}
+
+.services {
+    margin-bottom: 78px;
+
+}
+
+.services-top-horizontal {
+    display: inline-block;
+    margin-bottom: 25px;
+    width: 56px;
+    height: 2px;
+    background: #000000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.services-paragraph {
+    margin: 0;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #7D7987;
+}
+
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    list-style: none;
+    margin: -30px;
+    
+}
+
+.services-item {
+    margin: 15px;
+    padding: 25px 50px;
+    width: 350px;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    border: 2px solid #000;
+    
+}
+
+.services-item-image {
+    margin-bottom: 20px;
+}
+
+.services-item-heading {
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 24px;
+    line-height: 56px;
+    color: #000000;
+
+}
+
+.services-item-paragraph {
+    margin: 0;
+    line-height: 28px;
+    color: #7D7987;
+}
+
+.learn-button {
+    display: block;
+    margin: 50px auto auto auto;
+    border: 1.4px solid #458FF6;
+    box-sizing: border-box;
+    border-radius: 55px;
+    color: #458FF6;
+    width: 200px;
+    height: 60px;
+    font-size: larger;
+}
+
+.header-img {
+    margin-left: 50px;
+}
+
+.button_two {
+    margin-left: 0;
+    display: block;
+    margin: auto;
+    border: 1.4px solid #458FF6;
+    box-sizing: border-box;
+    border-radius: 55px;
+    color: #458FF6;
+    width: 140px;
+    height: 40px;
+}
+
+.section-header2 {
+    font-size: 36px;
+}
+
+.font-size {
+    font-size: 23px;
+    margin-right: 100px;
+}
+
+.container3 {
+    margin-left: 130px;
+}
+
+.downloading-paragraph {
+    display: inline-block;
+}
+
+.font-size-two {
+    font-size: 20px;
+}
+
+.download-img {
+    margin-right: 150px;
+    display: inline-block;
+}
+
+.header-two {
+    margin-left: 70px;
+    display: inline-block;
+}
+
+.font-size2 {
+    font-size: 23px;
+    margin-left: 70px;
+    margin-block-end: auto;
+}
+
+.download-img {
+    margin-right: 250px;
+}
+
+.header-two {
+    margin-left: 70px;
+}
+
+.people-saying {
+    width: 920px;
+    height: 300px;
+    margin: auto;
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 24px;
+}
+
+.about-people {
+    display: flex;
+}
+
+.people-saying h3 {
+    padding-top: 50px;
+    font-size: 26px;
+    text-align: center;
+}
+
+
+
+.people-img {
+    margin-left: 40px;
+    border-radius: 500%;
+}
+
+.about-paragraph {
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 200px;
+}
+
+.about-paragraph-two {
+    margin-top: 30px;
+    width: 400px;
+}
+
+.our-article {
+    text-align: center;
+}
+
+.article-list {
+    display: flex;
+    list-style: none;
+    margin: -17px;
+    margin-bottom: 69px;
+    
+}
+.article-item {
+    margin: 17px;
+    width: 350px;
+    background: #FFFFFF;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+.article-info {
+    padding: 20px;
+}
+
+.article-img {
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    
+}
+
+.article-link {
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.veiw-button {
+    background: #458FF6;
+    border: none;
+    border-radius: 15px;
+    height: 60px;
+    width: 200px;
+    color: #ffffff;
+    border-radius: 55px;
+    font-size: larger;
+    text-align: center;
+    margin-left: 450px;
+    margin-bottom: 200px;
+}
+
+.footer-side {
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+
+    
+}
+
+.footer-left {
+    padding-top: 118px;
+    width: 391px;
+}
+
+.footer-desc {
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    width: 391px;
+}
+
+.footer-right {
+    display: flex;
+    padding-top: 118px;
+    margin-left: 145px;
+}
+
+.footer-list {
+    list-style: none;
+    width: 200px;
+}
+
+.footer-item{
+    margin: 10px 0;
+}
+   
+.footer-item-link{
+    text-decoration: none;
+    color: white;
+    font-family: 'Mulish',sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    marg
+}
+
+
+
+
+
+
